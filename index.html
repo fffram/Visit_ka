@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт Визитка</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="content">
+        <heder class="heder content_wapper">
+
+            <div class="heder-logo-nav">
+                <a class="heder-logo" href="">
+                    <img class="heder-logo-image" src="./assets/images/logo.png" alt="logo" width="48" height="48" loading="lazy" />
+                </a>
+
+                <nav class="heder-menu">
+                    <ul class="heder-menu-list">
+                        <li class="heder-menu-item">
+                            <a href="#about" class="heder-menu-link">О себе</a>
+                        </li>
+                        <li class="heder-menu-item">
+                            <a href="#skills" class="heder-menu-link">Навыки</a>
+                        </li>
+                        <li class="heder-menu-item">
+                            <a href="#education" class="heder-menu-link">Образование</a>
+                        </li>
+                        <li class="heder-menu-item">
+                            <a href="#contacts" class="heder-menu-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+
+
+            </div>
+
+            <div class="heder-actions">
+                <button onclick="window.location.href = '#feedback';" class="heder-book-botton button" type="button">
+				Связаться со мной
+				</button>
+
+                <button class="menu-button button" style="justify-content: center;" id="mobile-menu-btn" type="button">
+                    <svg
+                    class="svgOpen"
+                    width="20.000000"
+                    height="12.000000"
+                    viewBox="0 0 20 12"
+                    fill="none">
+                        <path
+                        id="vector"
+                        d="M0 0L20 0L20 2L0 2L0 0ZM0 5L20 5L20 7L0 7L0 5ZM0 10L20 10L20 12L0 12L0 10Z"
+                        fill="#FFFFF8"
+                        fill-opacity="1.000000"
+                        fill-rule="evenodd"/>
+                    </svg>
+                    <svg
+                    class="svgClose"
+                    width="15.556396"
+                    height="15.556351"
+                    viewBox="0 0 15.5564 15.5564"
+                    fill="none">
+                        <path
+                        id="vector"
+                        d="M7.77 6.36L1.41 0L0 1.41L6.36 7.77L0 14.14L1.41 15.55L7.77 9.19L14.14 15.55L15.55 14.14L9.19 7.77L15.55 1.41L14.14 0L7.77 6.36Z"
+                        fill="#FFFFF8"
+                        fill-opacity="1.000000"
+                        fill-rule="nonzero"/>
+                    </svg>
+                </button>
+            </div>
+        </heder>
+
+        <main>
+            <heder class="page-title content_wapper">
+                <h1>
+                    Иванов Иван, 21 год. Front-end разработчик из Сыктывкара.
+                </h1>
+            </heder>
+
+            <section id="about" class="about content_wapper">
+                <h2>
+                    О себе
+                </h2>
+                <p class="otstup">
+                    Меня зовут Иван, мне 21 год. Я учусь в университете и обожаю кодить. Я работаю над проектами, чтобы сделать вашу жизнь проще, и люблю решать проблемы, которые возникают у людей. Пишу чистый код, умею рефакторить чужой. Оптимизирую всё и вся, иногда просирая
+                    сроки из-за этого.
+                </p>
+                <p>
+                    Начиная со второго курса стажируюсь в Utairна позиции front-end разработчика. Помогаю делать платформу для работы с обратной связью от пассажиров.
+                    <br><br> В свободное время играю в хоккей и дартс. Люблю смотреть фильмы Нолана, Финча и Миядзаки. Апал глобала в контре и титана в доте, добился успеха крч.
+                </p>
+            </section>
+
+            <div class="invis">
+                <h2>Навыки</h2>
+            </div>
+
+            <div id="skills" class="skills content_wapper">
+
+                <div class="item1">
+                    <h2>Навыки</h2>
+                </div>
+
+                <div class="item2">
+                    <h3>Технические</h3>
+                </div>
+
+                <div class="item2">
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Vue.js, React, Angular</li>
+                        <li>JQuery</li>
+                        <li>Git</li>
+                        <li>gulp</li>
+                        <li>sass</li>
+                    </ul>
+                </div>
+                <div class="item1"></div>
+
+                <div class="item2">
+                    <h3>Софтовые</h3>
+                </div>
+                <div class="item2">
+                    <ul>
+                        <li>Ведение проектов</li>
+                        <li>Написание ТЗ</li>
+                        <li>Рефакторинг чужого кода</li>
+                        <li>Английский B2</li>
+                        <li>Китайский Вацаонима</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="invis">
+                <h2>Образование</h2>
+            </div>
+
+            <section id="education" class="education content_wapper">
+
+                <h2 class="item6">
+                    Образование
+                </h2>
+
+                <div class="item7">
+                    <h3>
+                        Учебное заведение
+                    </h3>
+                    <p>
+                        СГУ им. Питирима Сорокина
+                    </p>
+                    <h3>
+                        Направление
+                    </h3>
+                    <p>
+                        Прикладная информатика
+                    </p>
+                    <h3>
+                        Год окончания
+                    </h3>
+                    <p>
+                        2026
+                    </p>
+                </div>
+            </section>
+
+            <section id="feedback" class="feedback">
+                <div class="invis">
+                    <h2>Остались вопросы?</h2>
+                </div>
+                <form action="/" class="form content_wapper">
+                    <header class="heder-feedback">
+                        <p class="nenada">
+                            Остались вопросы?
+                        </p>
+                    </header>
+
+                    <div class="form-feedback">
+                        <div class="input-container">
+                            <div class="input-content">
+                                <input id="name" class="floating-input" type="text" placeholder=" ">
+                                <label class="floating-label" for="name">Имя</label>
+                                <p class="error-message" id="name-error"></p>
+                            </div>
+                        </div>
+
+                        <div class="input-container">
+                            <div class="input-content">
+                                <input id="tg" class="floating-input" type="text" placeholder=" ">
+                                <label class="floating-label" for="tg">Телеграм</label>
+                                <p class="error-message" id="tg-error"></p>
+                            </div>
+                        </div>
+
+                        <div class="input-container-comment">
+                            <div class="input-content">
+                                <textarea id="comment" class="floating-input" type="text" placeholder=" "></textarea>
+                                <label class="floating-label" for="comment">Сообщение</label>
+                                <p class="error-message" id="comment-error"></p>
+                            </div>
+                        </div>
+
+                        <button class="form-button" type="button" onclick="validateForm()"> 
+                            Связаться со мной 
+                        </button>
+                        <p id="success-message" class="success-message" style="display: none;">Форма успешно отправлена!</p>
+                    </div>
+                </form>
+            </section>
+
+            <section id="contacts" class="contacts content_wapper">
+                <a href="https://structure.mil.ru/structure/ministry_of_defence/details.htm?id=9595@egOrganization">Telegram</a>
+                <a href="https://drive.google.com/file/d/1HtTgeglqJuGvq3lilax4lZvgJLsgP0Ph/view?usp=sharing">Вконтакте</a>
+                <a href="https://student-labs.kernel-dev.ru/github.html">Github</a>
+                <a href="https://ru.stackoverflow.com/questions/1427046/%D0%9A%D0%B0%D0%BA-%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D1%87%D1%82%D0%BE%D0%B1%D1%8B-%D0%BC%D0%B5%D0%BD%D1%8E-%D0%BF%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE-%D0%B2%D1%8B%D0%B5%D0%B7%D0%B6%D0%B0%D0%BB%D0%BE-%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%B0-%D0%BD%D0%B0%D0%BB%D0%B5%D0%B2%D0%BE">Discord</a>
+                <a href="https://drive.google.com/file/d/1QTBZufcgrSoYNfCKE_l0iRcQiHikmnUy/view?usp=drive_link">Email</a>
+            </section>
+        </main>
+    </div>
+
+    <div id="menu" class="mob-menu"> 
+        <nav> 
+            <ul class="mob-menu-list"> 
+                <li class="mob-menu-item"> 
+                    <a href="#about" class="mob-menu-link">О себе</a> 
+                </li> 
+                <li class="mob-menu-item"> 
+                    <a href="#skills" class="mob-menu-link">Навыки</a> 
+                </li> 
+                <li class="mob-menu-item"> 
+                    <a href="#education" class="mob-menu-link">Образование</a> 
+                </li> 
+                <li class="mob-menu-item"> 
+                    <a href="#contacts" class="mob-menu-link">Контакты</a> 
+                </li> 
+            </ul> 
+        </nav> 
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
